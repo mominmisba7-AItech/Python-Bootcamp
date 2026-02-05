@@ -47,17 +47,35 @@
 
 
 #Q.13: Calculate Electricity Bill:
-units = int(input("Enter the number of units:- "))
-cost = 0
-if units <= 100:
-    cost = units*4.2      # For the first 100 units the rate is rs.4.2 per unit.
+# units = int(input("Enter the number of units:- "))
+# cost = 0
+# if units <= 100:
+#     cost = units*4.2      # For the first 100 units the rate is rs.4.2 per unit.
     
-elif units <= 200:
-    cost = (100*4.2) + ((units-100)*6)      # For the next 100 units the rate is rs 6 per unit.
+# elif units <= 200:
+#     cost = (100*4.2) + ((units-100)*6)      # For the next 100 units the rate is rs 6 per unit.
     
-elif units <= 400:
-    cost = (100*4.2) + (100*6) + ((units-200)*8)   #For the next 200 units the rate is rs 8 per unit.
+# elif units <= 400:
+#     cost = (100*4.2) + (100*6) + ((units-200)*8)   #For the next 200 units the rate is rs 8 per unit.
     
-else:                  # For the above 400 units the rate is rs 13 per unit.
-    cost = (100*4.2) + (100*6) + (200*8) + ((units-400)*13)
-print(f"Total bill amount:{cost}")
+# else:                  # For the above 400 units the rate is rs 13 per unit.
+#     cost = (100*4.2) + (100*6) + (200*8) + ((units-400)*13)
+# print(f"Total bill amount:{cost}")
+
+
+#Q.14: Shop Discount:t
+# totalPrice = int(input("Enter Your Total price amount:- "))
+# payable = 0
+# if totalPrice <= 5000:
+#     payable = totalPrice
+# elif 5000 < totalPrice <= 7000:
+#     payable = totalPrice - (totalPrice * 5 / 100)
+# elif 7000 < totalPrice <= 9000:
+#     payable = totalPrice - (totalPrice * 10 / 100)
+# else:
+#     payable = totalPrice - (totalPrice * 20 / 100)
+# print(f"Total payable amount is {payable}")
+
+n = 5
+for i in  range(1,6):
+    print("Hello World")
