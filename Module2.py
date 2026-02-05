@@ -75,7 +75,3 @@
 # else:
 #     payable = totalPrice - (totalPrice * 20 / 100)
 # print(f"Total payable amount is {payable}")
-
-n = 5
-for i in  range(1,6):
-    print("Hello World")
